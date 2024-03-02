@@ -41,10 +41,7 @@ _____ ___________  ___  _    ______ _____ _   _
 print(Fore.CYAN + logo +  Style.RESET_ALL)
 
 name = input(" NAME ")
-#read name 
-
-
-__________________________________________  
+ 
 print(f'{Fore.WHITE}-----------------------------------------------')
 print(f'{Fore.YELLOW}  Author   : GOPAL HUI')
 print(f'{Fore.RED}  Facebook : https://www.facebook.com/profile.php?id=YWR DADY GOPAL')
