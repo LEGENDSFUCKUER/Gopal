@@ -43,19 +43,16 @@ print(Fore.CYAN + logo +  Style.RESET_ALL)
 name = input(" NAME ")
 #read name 
 
-logo = r'''
+
 __________________________________________  
-{Fore.WHITE}-----------------------------------------------
-{Fore.YELLOW}  Author   : GOPAL HUI
-{Fore.RED}  Facebook : https://www.facebook.com/profile.php?id=YWR DADY GOPAL
-{Fore.GREEN}  Virson   : 2024 [[ PAID TOOL  KE LIYE CONTACT ON  NICHE NUMBER] ] 
-{Fore.BLUE} whatsapp [+91 9777105272]
-{Fore.WHITE}-----------------------------------------------"""
+print(f'{Fore.WHITE}-----------------------------------------------')
+print(f'{Fore.YELLOW}  Author   : GOPAL HUI')
+print(f'{Fore.RED}  Facebook : https://www.facebook.com/profile.php?id=YWR DADY GOPAL')
+print(f'{Fore.GREEN}  Virson   : 2024 [[ PAID TOOL  KE LIYE CONTACT ON  NICHE NUMBER] ') 
+print(f'{Fore.BLUE} whatsapp [+91 9777105272]')
+print(f'{Fore.WHITE}-----------------------------------------------""" ')
 
-# Print the logo
-print({Fore.WHITE} + {Fore.YELLOW} + {Fore.RED} + {Fore.GREEN} + {Fore.BLUE} + {Fore.WHITE} style._ALl)
 
-    
 # Prompt Password 
 def pas():
     print('\u001b[37m' + 'TH3 L3G3ND G0P9L HU1 H3R3')
