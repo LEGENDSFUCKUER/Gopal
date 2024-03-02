@@ -26,12 +26,12 @@ _____ ___________  ___  _    ______ _____ _   _
  \____/\___/\_|      |_/\_____/___/  \___/\_| \_/
 
  __________________________________________  
-\033[1;37;1m-----------------------------------------------
-\033[1;37;1m  Author   : GOPAL HUI
-033[1;37;1m  Facebook : https://www.facebook.com/profile.php?id=YWR DADY GOPAL
-\033[1;37;1m  Virson   : 2024 [[ PAID TOOL  KE LIYE CONTACT ON  NICHE NUMBER] ] 
-\033[1;371m whatsapp [+91 9777105272]
-\033[1;37;1m-----------------------------------------------"""
+{Fore.WHITE}-----------------------------------------------
+{Fore.YELLOW}  Author   : GOPAL HUI
+{Fore.RED}  Facebook : https://www.facebook.com/profile.php?id=YWR DADY GOPAL
+{Fore.GREEN}  Virson   : 2024 [[ PAID TOOL  KE LIYE CONTACT ON  NICHE NUMBER] ] 
+{Fore.BLUE} whatsapp [+91 9777105272]
+{Fore.WHITE}-----------------------------------------------"""
 
                                               
 
