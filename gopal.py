@@ -25,14 +25,7 @@ _____ ___________  ___  _    ______ _____ _   _
 | |_\ \ |_/ / |  \___  || |___| |/ /\ |_/ / |\  |
  \____/\___/\_|      |_/\_____/___/  \___/\_| \_/
 
- __________________________________________  
-{Fore.WHITE}-----------------------------------------------
-{Fore.YELLOW}  Author   : GOPAL HUI
-{Fore.RED}  Facebook : https://www.facebook.com/profile.php?id=YWR DADY GOPAL
-{Fore.GREEN}  Virson   : 2024 [[ PAID TOOL  KE LIYE CONTACT ON  NICHE NUMBER] ] 
-{Fore.BLUE} whatsapp [+91 9777105272]
-{Fore.WHITE}-----------------------------------------------"""
-
+ 
                                               
 
                                                                          
@@ -47,6 +40,19 @@ _____ ___________  ___  _    ______ _____ _   _
 # Print the logo
 print(Fore.CYAN + logo +  Style.RESET_ALL)
 
+name = input(" NAME ")
+#read name 
+
+logo = r'''
+__________________________________________  
+{Fore.WHITE}-----------------------------------------------
+{Fore.YELLOW}  Author   : GOPAL HUI
+{Fore.RED}  Facebook : https://www.facebook.com/profile.php?id=YWR DADY GOPAL
+{Fore.GREEN}  Virson   : 2024 [[ PAID TOOL  KE LIYE CONTACT ON  NICHE NUMBER] ] 
+{Fore.BLUE} whatsapp [+91 9777105272]
+{Fore.WHITE}-----------------------------------------------"""
+
+# print the logo
 
     
 # Prompt Password 
