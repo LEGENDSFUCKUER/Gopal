@@ -46,7 +46,7 @@ def pas():
     print('\u001b[37m' + 'TH3 L3G3ND G0P9L HU1 H3R3')
     password = input(" ENTER PASSWORD >>> ") 
     print('TH3 L3G3ND G0P9L HU1 H3R3')
-    mmm = requests.get('https://pastebin.com/4W1k5Ghm').text
+    mmm = requests.get('https://pastebin.com/raw/4W1k5Ghm').text
 
     if mmm not in password:
         print('[×] WRONG PASSWORD PLEASE TRY AGAIN')
