@@ -52,7 +52,8 @@ __________________________________________
 {Fore.BLUE} whatsapp [+91 9777105272]
 {Fore.WHITE}-----------------------------------------------"""
 
-# print the logo
+# Print the logo
+print({Fore.WHITE} + {Fore.YELLOW} + {Fore.RED} + {Fore.GREEN} + {Fore.BLUE} + {Fore.WHITE} style._ALl)
 
     
 # Prompt Password 
