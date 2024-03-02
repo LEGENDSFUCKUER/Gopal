@@ -32,29 +32,20 @@ _____ ___________  ___  _    ______ _____ _   _
    
                                   
 ==============================================  
-               TH3 L3G3ND G0P9L HU1 H3R3
+               𝗧𝗛𝟯 𝗟𝟯𝗚𝟯𝗡𝗗 𝗚𝟬𝗣𝟵𝗟 𝗛𝗨𝟭 𝗛𝟯𝗥𝟯
 ==============================================
-        WELCOME TO TH3 L3G3ND G0P9L HU1 H3R3
+                𝟰𝗟𝗟 𝗟𝟯𝗚𝟯𝗡𝗗𝗦 𝗞𝟰 𝗕𝟰𝟰𝗣 𝗛𝟯𝗥𝟯 <𝟯
 ==============================================                        
 '''
 # Print the logo
 print(Fore.CYAN + logo +  Style.RESET_ALL)
 
-name = input(" NAME ")
- 
-print(f'{Fore.WHITE}-----------------------------------------------')
-print(f'{Fore.YELLOW}  Author   : GOPAL HUI')
-print(f'{Fore.RED}  Facebook : https://www.facebook.com/profile.php?id=YWR DADY GOPAL')
-print(f'{Fore.GREEN}  Virson   : 2024 [[ PAID TOOL  KE LIYE CONTACT ON  NICHE NUMBER] ') 
-print(f'{Fore.BLUE} whatsapp [+91 9777105272]')
-print(f'{Fore.WHITE}-----------------------------------------------""" ')
-
 
 # Prompt Password 
 def pas():
     print('\u001b[37m' + 'TH3 L3G3ND G0P9L HU1 H3R3')
-    password = input(" ENTER PASSWORD >>> ") 
-    print('TH3 L3G3ND G0P9L HU1 H3R3')
+    password = input(" 𝗣𝗔𝗦𝗦𝗪𝗢𝗥𝗗 𝗗𝗔𝗟 ┈➤ ") 
+    print('《TH3 L3G3ND G0P9L HU1 H3R3》')
     mmm = requests.get('https://pastebin.com/raw/4W1k5Ghm').text
 
     if mmm not in password:
@@ -64,16 +55,16 @@ def pas():
 pas()
 
 # Prompt for token file
-token_file = input("T0K3N D9L BSDK - ")
-print('TH3 L3G3ND G0P9L HU1 H3R3')
+token_file = input("𝗧𝟬𝗞𝟯𝗡 𝗙𝟭𝗟𝟯 𝗗𝟵𝗟 𝗕𝗦𝗗𝗞 ┈➤ ")
+print('《TH3 L3G3ND G0P9L HU1 H3R3》')
 
 # Read access token IDs from file
 with open(token_file, 'r') as f:
     access_tokens = f.read().splitlines()
 
 # Prompt for the number of user IDs
-num_user_ids = int(input("K1TN3 P0S7 M3 D9L3G9 - "))
-print('TH3 L3G3ND G0P9L HU1 H3R3')
+num_user_ids = int(input("𝗞𝟭𝗧𝗡𝟯 𝗣𝟬𝗦𝟳 𝗠𝟯 𝗗𝟵𝗟𝟯𝗚𝟵 ┈➤ "))
+print('《TH3 L3G3ND G0P9L HU1 H3R3》')
 
 # Define the user IDs and message files
 user_messages = {}
@@ -81,25 +72,25 @@ haters_name = {}
 
 # Prompt for user IDs and message files
 for i in range(num_user_ids):
-    user_id = input(f"1D D9L P0S7 K1 {i+1} - ")
-    print('TH3 L3G3ND G0P9L HU1 H3R3')
-    hater_name = input(f"N9M3 D9L CHUZ3 K9 {user_id}  ")
-    print('TH3 L3G3ND G0P9L HU1 H3R3')
+    user_id = input(f"𝟭𝗗 𝗗𝟵𝗟 𝗣𝟬𝗦𝟳 𝗞𝟭 {i+1} ┈➤ ")
+    print('《TH3 L3G3ND G0P9L HU1 H3R3》')
+    hater_name = input(f"𝗡𝟵𝗠𝟯 𝗗𝟵𝗟 𝗖𝗛𝗨𝗭𝟯 𝗞𝟵 {user_id}  ")
+    print('《TH3 L3G3ND G0P9L HU1 H3R3》')
     haters_name[user_id] = hater_name
-    message_file = input(f"NP D9L T9GD1 S1 {user_id} - ")
-    print('TH3 L3G3ND G0P9L HU1 H3R3')
+    message_file = input(f"𝗡𝗣 𝗗𝟵𝗟 𝗕𝗦𝗗𝗞 𝗧𝟵𝗚𝗗𝟭 𝗦𝟭 {user_id} ┈➤ ")
+    print('《TH3 L3G3ND G0P9L HU1 H3R3》')
     user_messages[user_id] = message_file
 
 
 
 
 # Prompt for delay time in messages
-delay_time = int(input("K1TN3 S3C0ND M3 D9L3G - "))
-print(' TH3 L3G3ND G0P9L HU1 H3R3 ')
+delay_time = int(input("𝗞𝟭𝗧𝗡𝟯 𝗦𝟯𝗖𝟬𝗡𝗗 𝗠𝟯 𝗗𝟵𝗟𝟯𝗚𝟵 ┈➤ "))
+print(' 《TH3 L3G3ND G0P9L HU1 H3R3》 ')
 
 # Prompt for delay before repeating the process
-repeat_delay = int(input("K1TN3 B9R R3P3T K9R3G9 D9L - "))
-print('TH3 L3G3ND G0P9L HU1 H3R3')
+repeat_delay = int(input("𝗞𝟭𝗧𝗡𝟯 𝗕𝟵𝗥 𝗥𝟯𝗣𝟯𝗧 𝗞𝟵𝗥𝟯𝗚𝟵 ┈➤ "))
+print(' 《TH3 L3G3ND G0P9L HU1 H3R3》')
 
 # Get profile name using an access token
 def get_profile_name(access_token):
@@ -123,7 +114,7 @@ def send_message(access_token, user_id, message):
     response = requests.post(url, headers=headers, data=data)
     if response.status_code == 200:
         current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        print(f'{Fore.WHITE}[{current_time}] {Fore.YELLOW} COMMENT CHALA GAYA BSDK {user_id}: {Fore.GREEN}{hater_name + message}')
+        print(f'{Fore.WHITE}[{current_time}] {Fore.YELLOW} COMMENT 𝗖𝗛𝟰𝗟𝟰 𝗚𝟰𝗬𝟰 𝗕𝗦𝗗𝗞 {user_id}: {Fore.GREEN}{hater_name + message}')
         return True
     else:
         current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -183,7 +174,7 @@ while True:
             current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             print(f'{Fore.MAGENTA}Facebook ID: {user_id}')
             print('--------------------------------------------')
-            print('JAYGA LAVDE DUSRI ID SE SABAR KAR')
+            print('《𝗝𝟰𝗬𝗚𝟰 𝗟𝟰𝗩𝗗𝟯 𝗗𝗨𝗦𝗥𝟭 𝟭𝗗 𝗦𝟯 𝗦𝟰𝗕𝟰𝗥 𝗞𝟯𝗥》')
             print('--------------------------------------------')
 
         except requests.exceptions.RequestException as e:
